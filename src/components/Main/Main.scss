@@ -1,3 +1,5 @@
+@use '../../styles/variables' as vars;
+
 main {
     display: flex;
     flex-direction: column;
@@ -13,5 +15,27 @@ main {
 }
 
 .card-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 2rem;
     width: 1110px;
+
+    & > .card:nth-child(1) {
+        border-top: 5px solid #3dc4c4;
+    }
+
+    & > .card:nth-child(2) {
+        border-top: 5px solid vars.$red;
+    }
+    
+    & > .card:nth-child(3) {
+        border-top: 5px solid #fbbf24;
+        order: 4;
+    }
+    
+    & > .card:nth-child(4) {
+        border-top: 5px solid #3b82f6;
+    }
 }

@@ -1,10 +1,27 @@
-@import "../../styles/variables";
+@use '../../styles/variables' as vars;
 
 .card {
-    border-top: 4px;
-    border-color: red;
-    background: $white;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    background: vars.$white;
     padding: 32px;
     height: 250px;
     width: 350px;
+
+    &__title {
+
+    }
+
+    &__summary {
+        
+    }
+
+    &__icon {
+        align-self: flex-end;
+        height: 64px;
+        width: 64px;
+    }
 }
