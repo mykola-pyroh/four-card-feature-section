@@ -1,0 +1,10 @@
+@import "../../styles/variables";
+
+.card {
+    border-top: 4px;
+    border-color: red;
+    background: $white;
+    padding: 32px;
+    height: 250px;
+    width: 350px;
+}

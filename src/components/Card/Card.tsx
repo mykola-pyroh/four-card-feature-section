@@ -1,3 +1,5 @@
+import "./Card.scss";
+
 export default function Card({ title, summary, icon }: { title: string; summary: string; icon: string }) {
     
     return (
