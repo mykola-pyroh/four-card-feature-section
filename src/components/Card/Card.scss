@@ -38,7 +38,8 @@
         gap: 26px;
         padding: 28px;
         height: 222px;
-        width: 311px;
+        width: 100%;
+        max-width: 311px;
     
         &__icon {
             height: 58px;
