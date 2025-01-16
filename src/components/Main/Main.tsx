@@ -8,7 +8,7 @@ export default function Main() {
         <main>
             <section className="title-section">
                 <p className="title-section__subtitle">Reliable, efficient delivery</p>
-                <p className="title-section__title">Powered by Technology</p>
+                <h1 className="title-section__title">Powered by Technology</h1>
                 <p className="title-section__summary">Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful</p>
             </section>
             <section className="card-section">
