@@ -1,0 +1,8 @@
+@use './typography' as typography;
+@use 'sass:map';
+
+@mixin typography($preset-name) {
+    $preset: map.get(typography.$typography-presets, $preset-name);
+    font-family: map.get($preset, font-family);
+    font-weight: map.get($preset, font-weight);
+}
